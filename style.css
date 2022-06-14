@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 ul {
     margin: 0;
@@ -15,9 +16,7 @@ ul {
 img {
     max-width: 100%;
 }
-a {
-    list-style: none;
-}
+
 .container {
    box-sizing: border-box;
    width: 100%;
@@ -29,8 +28,7 @@ a {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #141415;
-    opacity: 0.6;
+    color: #000000;
  }
  /* header footer*/
  .header, .footer {
@@ -90,17 +88,38 @@ a {
     align-items: center;
     background-color: #ffcc00;    
  }
- .my_name {
+ .heading-right_main {
     color: rgb(0, 0, 0);
     font-size: 68px;
     font-weight: bold;
     line-height: 46px;
     letter-spacing: 0.05em;
  }
+ .section-right-text {
+    margin: 30px;
+  
+ }
+ .heading-right {
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #262626;    
+ }
+ .additional_educ_list {
+    display: flex;
+ }
+ .additional_educ {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+ }
  /* section left */
  .section-left-card {
     margin: 30px 0;
  }
+
  .section-left-list {
     display: flex;
     flex-direction: column;
@@ -120,14 +139,30 @@ a {
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 0.05em;
+    background-color: #262626;
  }
  .section-left-item_contact {
     color: white;
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 0.05em;
-    margin: 0 0 10px;
+    margin: 0 50px 10px 0;
+    background-color: #262626;
     border-left: 50px solid #ffcc00;
  }
+ .contact {
+    display: flex;
+    flex-direction: column;
+ }
+ /* footer */
+.footer-list {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.footer-item {
+    display: flex;
+    margin: auto 20px; 
+}
 
 

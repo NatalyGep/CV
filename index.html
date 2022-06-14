@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container header">
@@ -29,7 +32,8 @@
             </ul></div>
     </header>
     <main class="container main-container">
-        <section class="section-left"><img src="img/photo.jpg" alt="photo">
+        <section class="section-left">
+            <img src="img/photo.jpg" alt="photo">
             <div class="section-left-card">
                 <h2 class="heading_educ">EDUCATION</h2>
             <ul class="section-left-list">
@@ -39,50 +43,70 @@
            </div>
             <div class="section-left-card">
                 <h2 class="heading_contact">CONTACTS</h2>
-            <ul class="section-left-list">
-                <li class="section-left-item_contact"><p class="contact">Phone<p>+79930223311</p></p> </li>
-                <li class="section-left-item_contact"><p class="contact">Email<p>blackangelgirl555@mail.ru</p></p> </li>
-                <li class="section-left-item_contact"><p class="contact">Address<p>Kaliningrad Kosmonavta Leonova street</p></p> </li>
+             <ul class="section-left-list">
+                <li class="section-left-item_contact"><div class="contact">Phone:<a href="tel:+79930223311" class="section-contacts-link">
+                    +7 (993) 022-33-11</a></div> </li>
+                <li class="section-left-item_contact"><div class="contact">Email:<a href="mailto:blackangelgirl555@mail.ru" class="section-contacts-link">
+                    blackangelgirl555@mail.ru</a></div> </li> 
+                <li class="section-left-item_contact"><div class="contact">Address:<p>Kaliningrad Kosmonavta Leonova st.</p>
+              </div> </li>
             </ul>
             </div>
         </section>
         <section class="section-right">
             <div class="section-right-my_name">
-            <h1 class="my_name">NATALYA GEPALOVA</h1>
+            <h1 class="heading-right_main">NATALYA GEPALOVA</h1>
         </div>
-        <div class="section-about-me">
-            <h2>About me</h2>
+        <div class="section-about-me section-right-text">
+            <h2 class="heading-right">About me</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam esse autem, eligendi culpa temporibus voluptatibus quis iure facere explicabo, dolore quaerat rem beatae consequuntur enim non voluptatem nihil quasi nostrum corrupti. Ipsa assumenda alias nesciunt eveniet enim cumque minima nostrum.</p>
         </div>
-        <div class="section-additional_educ">
-            <h2>ADDITIONAL EDUCATION</h2>
-<ul>
-    <lu><a href="">item1</a></lu>
-    <lu><a href="">item2</a></lu>
-    <lu><a href="">item3</a></lu>
-    <lu><a href="">item4</a></lu>
-    <lu><a href="">item5</a></lu>
-    <lu><a href="">item6</a></lu>
-    <lu><a href="">item7</a></lu>
-    <lu><a href="">item8</a></lu>
-    <lu><a href="">item9</a></lu>
-    <lu><a href="">item10</a></lu>
+        <div class="section-right-additional_educ section-right-text">
+            <h2 class="heading-right">Additional education</h2>
+            <div class="additional_educ_list">
+<ul class="additional_educ">
+    <lu><a href="certificates\Html_css_ Interactive_ course.pdf" target="_blank" class="text">Html/css. Interactive course</a></lu>
+    <lu><a href="" target="_blank" class="text">item2</a></lu>
+    <lu><a href="" target="_blank" class="text">item3</a></lu>
+    <lu><a href="" target="_blank" class="text">item4</a></lu>
+    <lu><a href="" target="_blank" class="text">item5</a></lu>
 </ul>
+<ul class="additional_educ">
+    <lu><a href="" target="_blank" class="text">item6</a></lu>
+    <lu><a href="" target="_blank" class="text">item7</a></lu>
+    <lu><a href="" target="_blank" class="text">item8</a></lu>
+    <lu><a href="" target="_blank" class="text">item9</a></lu>
+    <lu><a href="" target="_blank" class="text">item10</a></lu>
+</ul>
+</div>
         </div>
-        <div class="section-left-code">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sint!</div>
-        <div class="section-left-skills"><ul>
-            <lu><a href="">skill1</a></lu>
-            <lu><a href="">skill2</a></lu>
-            <lu><a href="">skill3</a></lu>
-            <lu><a href="">skill4</a></lu>
+        <div class="section-right-code section-right-text">
+            <h2 class="heading-right">Code example</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sint!</div>
+        <div class="section-right-skills section-right-text">
+            <h2 class="heading-right">Skills</h2><ul>
+            <lu><a href="" class="text">skill1</a></lu>
+            <lu><a href="" class="text">skill2</a></lu>
+            <lu><a href="" class="text">skill3</a></lu>
+            <lu><a href="" class="text">skill4</a></lu>
         </ul>
         </div>
-        <div class="section-left-language">language: eng A1</div>
-        <div class="section-left-experience">experience: begginet</div>  
-    </section>
+        <div class="section-right-project section-right-text">
+            <h2 class="heading-right">My progect</h2>
+             My project</div>
+        <div class="section-right-language section-right-text">
+            <h2 class="heading-right">Language</h2>language: eng A1</div>
+        <div class="section-right-experience section-right-text">
+            <h2 class="heading-right">My experience</h2>
+            experience: begginet</div> 
+     </section>
     </main>
     <footer class="container footer">
-
+        <ul class="footer-list">
+            <li class="footer-item"><a href="https://github.com/NatalyGep">GitHub</a></li>
+            <li class="footer-item"><a href="#"> <img src="img/" class="logo" alt="logo"></a></li>
+            <li class="footer-item"><p><small>&copy;</small>2022</p></li>
+        </ul>
     </footer>
     
 </body>
